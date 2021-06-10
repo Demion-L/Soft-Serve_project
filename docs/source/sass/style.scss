@@ -1,0 +1,21 @@
+$white: #ffffff;
+$green: #23d87d;
+$darkBlue: #462be2;
+$text: #000000;
+$grey: #e5e5e5;
+$creem: #ffe07d;
+
+html,
+body {
+    max-width: 1440px;
+    height: 100vh;
+    font-size: 16px;
+
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: $text;
+}
+
+@import "header";

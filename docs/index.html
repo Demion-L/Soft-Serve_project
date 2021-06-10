@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
+   <div class="wrapper">
+       <div class="container">
+        <header class="header">
+            <div class="header__logo">
+                <a href="index.html"><img src="source/icons/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="header__button" onclick="this.classList.toggle('open')">
+                <span class="header__button-element"></span>
+            </div>
+            <nav class="header__nav">
+                        <a class="header__nav-link" href="#">How it works</a>
+                        <a class="header__nav-link" href="#">Features</a>
+                        <a class="header__nav-link" href="#">Use cases</a>
+                        <a class="header__nav-link" href="#">Schedule a demo</a>
+                        <button class="header__nav-link button">upload sketch</button>
+            </nav>
+        </header>
+       </div>
+   </div>
 
     <script src="js/script.js"></script>
 </body>
