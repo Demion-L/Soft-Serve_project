@@ -1,0 +1,50 @@
+.bages {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: 9.6rem;
+}
+
+.bage {
+   background: $white;
+   padding: 2.5rem;
+   flex: 0 1 48%;
+   box-shadow: 0 20px 60px 0 rgba(49, 69, 244, 0.1);
+}
+.bage__container {
+   display: flex;
+   background: url('../../img/illustration-quote.jpg') no-repeat top right;
+   margin-bottom: 2.5rem;
+}
+.bage__img {
+   width: 100%;
+   max-width: 8.25rem;
+}
+.bage__description {
+}
+
+.bage__name,
+.bage__position {
+   width: 100%;
+   max-width: 21.25rem;
+}
+
+.bage__name {
+   margin: 1.25rem 0 0 1.25rem;
+   font-size: 1.1rem;
+   font-weight: 600;
+   line-height: 1.67;
+}
+.bage__position {
+   margin: .25rem 0 3.75rem 1.25rem;
+   color: $main;
+   opacity: 0.8;
+   font-size: .85rem;
+   font-weight: 600;
+   line-height: 2.14;
+}
+.bage__info {
+   width: 100%;
+   max-width: 28.75;
+   line-height: 1.88;
+}

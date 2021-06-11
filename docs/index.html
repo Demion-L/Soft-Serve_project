@@ -1,34 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-   <div class="wrapper">
-       <div class="container">
-        <header class="header">
-            <div class="header__logo">
-                <a href="index.html"><img src="source/icons/logo.png" alt="Logo">
-                </a>
-            </div>
-            <div class="header__button" onclick="this.classList.toggle('open')">
-                <span class="header__button-element"></span>
-            </div>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/iwh4zrp.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <a href="index.html"><img src="./img/logo.jpg" alt="Logo" /> </a>
+          </div>
+          <div class="header__button" onclick="this.classList.toggle('open')">
+            <span class="header__button-element"></span>
+          </div>
+          <div class="header__block">
             <nav class="header__nav">
-                        <a class="header__nav-link" href="#">How it works</a>
-                        <a class="header__nav-link" href="#">Features</a>
-                        <a class="header__nav-link" href="#">Use cases</a>
-                        <a class="header__nav-link" href="#">Schedule a demo</a>
-                        <button class="header__nav-link button">upload sketch</button>
+              <a class="header__nav-link" href="#bages">How it works</a>
+              <a class="header__nav-link" href="#features">Features</a>
+              <a class="header__nav-link" href="#do-with">Use cases</a>
+              <a class="header__nav-link" href="#">Schedule a demo</a>
+              <button class="header__nav-link button">upload sketch</button>
             </nav>
-        </header>
-       </div>
-   </div>
+          </div>
+        </div>
+        <div class="header__legend">
+          <h1 class="header__title">
+            Launch beautiful websites directly from Sketch
+          </h1>
+          <p class="header__subtitle">
+            Create pixel perfect websites, landing pages & portfolios directly
+            from your Sketch designs
+          </p>
+          <button class="button">Upload Your Sketch File</button>
+        </div>
+      </header>
+      <section class="bages" id="bages">
+        <div class="bage">
+          <figure class="bage__container">
+            <img src="img/john.jpg" alt="John" class="bage__img" />
+            <figcaption class="bage__description">
+              <p class="bage__name">John Doe</p>
+              <p class="bage__position">CEO, PrettyDopeDesigns</p>
+            </figcaption>
+          </figure>
+          <div class="bage__info">
+            “Our senior frontend developer was 70% faster in building React.js
+            components thanks to VanGoux!”
+          </div>
+        </div>
+        <div class="bage">
+          <figure class="bage__container">
+            <img src="img/jane.jpg" alt="Jane" class="bage__img" />
+            <figcaption class="bage__description">
+              <p class="bage__name">Jane Goodman</p>
+              <p class="bage__position">Founder, ImpactNation</p>
+            </figcaption>
+          </figure>
+          <div class="bage__info">
+            “It was awesome to see VanGoux turn our MVP designs into code within
+            minutes.”
+          </div>
+        </div>
+      </section>
+      <section class="features" id="features">
+        <h2 class="section-header">features</h2>
+        <div class="features__container">
+          <figure class="features__figure">
+            <div class="figure__container">
+              <img
+                src="../img/icons/icon-solid-pixel-perfect.svg"
+                alt="pixel-perfect"
+                class="figure__img"
+              />
+              <p class="figure__title">Pixel perfect output</p>
+            </div>
+            <div class="figure__content">
+              Crisp, pixel-perfect landing pages without bothering your
+              developers
+            </div>
+          </figure>
+          <figure class="features__figure">
+            <div class="figure__container">
+              <img
+                src="../img/icons/icon-solid-flexible-responsive.svg"
+                alt=""
+                class="figure__img"
+              />
+              <p class="figure__title">Flexible & responsive</p>
+            </div>
+            <div class="figure__content">
+              VanGoux gives you source code of your website, so you can add your
+              own logic
+            </div>
+          </figure>
+          <figure class="features__figure">
+            <div class="figure__container">
+              <img src="../img/icons/boxes.svg" alt="" class="figure__img" />
+              <p class="figure__title">Complete code freedom</p>
+            </div>
+            <div class="figure__content">
+              VanGoux gives you source code of your website, so you can add your
+              own logic
+            </div>
+          </figure>
+        </div>
+      </section>
+      <section id="for">
+        <h2 class="section-header">who is VanGoux for</h2>
+        <div class="for__container">
+          <div class="for__element">
+            <h3 class="for__header">UX engineers</h3>
+            <p class="for__description">
+              Build MVPs for your web app as fast as you can design
+            </p>
+          </div>
+          <div class="for__element">
+            <h3 class="for__header">UX designers</h3>
+            <p class="for__description">
+              Create and share reaslistic prototypes of your website or app
+            </p>
+          </div>
+          <div class="for__element">
+            <h3 class="for__header">React developers</h3>
+            <p class="for__description">
+              Auto-generate boilerplate components and design systems
+            </p>
+          </div>
+          <div class="for__element">
+            <h3 class="for__header">Design agencies</h3>
+            <p class="for__description">
+              Close more clients by showing them how quickly you can build apps
+            </p>
+          </div>
+          <div class="for__element">
+            <h3 class="for__header">Startups</h3>
+            <p class="for__description">
+              Go to market quickly by spinning up your website and apps
+            </p>
+          </div>
+          <div class="for__element">
+            <h3 class="for__header">Enterprises</h3>
+            <p class="for__description">
+              Quickly build design systems for your UX and product teams
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="do-with">
+        <h2 class="section-header">What can you do with VanGoux</h2>
+        <div class="do-with__wrapper">
+          <div class="do-with__container">
+            <img
+              src="img/icons/icon-solid-realistic-prototype.svg"
+              alt="realistic-prototype"
+            />
+            <p class="do-with__info">Make realistic prototypes</p>
+          </div>
+          <div class="do-with__container">
+            <img src="img/icons/icon-solid-mvp.svg" alt="solid-mvp" />
+            <p class="do-with__info">
+              Build an MVP as quickly as you can design
+            </p>
+          </div>
+          <div class="do-with__container">
+            <img
+              src="img/icons/icon-solid-landing-page.svg"
+              alt="pixel-perfect"
+            />
+            <p class="do-with__info">Create pixel-perfect landing pages</p>
+          </div>
+          <div class="do-with__container">
+            <img
+              src="img/icons/icon-solid-design-system.svg"
+              alt="design-system"
+            />
+            <p class="do-with__info">
+              Generate a design system for your product
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="callback">
+      <h2 class="callback__header section-header">
+        Don’t know how to work with code?
+      </h2>
+      <div class="callback__info">
+        Schedule a call and we'll show you how you could become a design-to-code
+        rockstar using VanGoux.
+      </div>
+      <button class="callback__button button">Schedule a call with us</button>
+    </section>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

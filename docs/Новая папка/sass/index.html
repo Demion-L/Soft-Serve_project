@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+                <div class="header__logo">
+                    <a href="index.html"><img src="source/icons/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="header__button" onclick="this.classList.toggle('open')">
+                    <span class="header__button-element"></span>
+                </div>
+                <nav class="header__block">
+                    <ul class="header__nav">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">Для кого</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">Функции</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">Преимущества</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">Заявка на Демо</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">Контакты</a>
+                        </li>
+                        <div class="header__nav-select-wrapper">
+                            <div class="header__nav-select-arrow"></div>
+                            <div class="header__nav-select-arrow"></div>
+                            <select class="header__nav-select" id="language" size="1">
+                                <option selected value="ru">Рус</option>
+                                <option value="eng">Eng</option>
+                                <option value="ua">Укр</option>
+                            </select>
+                        </div>
+                    </ul>
+                </nav>
+            </header>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

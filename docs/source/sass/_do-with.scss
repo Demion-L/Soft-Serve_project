@@ -1,0 +1,27 @@
+.do-with__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 7.5rem;
+}
+.do-with__container {
+  flex: 0 1 48%;
+  display: flex;
+  margin-bottom: 2.5rem;
+  background: $white;
+  box-shadow: 0 20px 60px 0 rgba(49, 69, 244, 0.1);
+}
+.do-with__info {
+  width: 100%;
+  width: 420px;
+  height: 40px;
+  margin: 20px 0 20px 20px;
+  font-family: Muli;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.22;
+  letter-spacing: normal;
+  color: #000000;
+}

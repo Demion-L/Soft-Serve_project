@@ -1,0 +1,20 @@
+.callback {
+   background:  $secondary url("../img/illustration-main.png") 100% 0 no-repeat; ;
+   padding-bottom: 7rem;
+}
+.callback__header.section-header {
+   color: $white;
+
+}
+.callback__info {
+   width: 100%;
+   max-width: 40rem;
+   margin: 48px 480px 40px 40px;
+   font-size: 1.2rem;
+   line-height: 2;
+   color: $white;
+}
+.callback__button.button {
+   background: $white;
+   color: $secondary;
+}

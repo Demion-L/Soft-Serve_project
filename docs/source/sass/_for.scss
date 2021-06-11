@@ -1,0 +1,29 @@
+.for__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 7.5rem;
+}
+.for__element {
+  flex: 0 0 31%;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  box-shadow: 0 20px 60px 0 rgba(49, 69, 244, 0.1);
+  background: $white;
+}
+
+.for__header,
+.for__description {
+  width: 100%;
+  max-width: 20rem;
+  margin: 1.25rem 0 0;
+}
+
+.for__header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: $main;
+}
+.for__description {
+  line-height: 1.88;
+}
