@@ -1,0 +1,40 @@
+.contact-us {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 4px 4px rgba(0,0,0,0.15), 
+  0 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 10rem;
+}
+.contacts__form {
+  display: flex;
+  flex: 0 1 48%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contacts__input {
+  width: 435px;
+  border-bottom: 2px solid $secondary;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  line-height: 1.63;
+  letter-spacing: 0.53px;
+  color:$black;
+}
+.contacts__button.button {
+   width: 100%;
+   max-width: 20rem;
+
+}
+.contacts__map {
+  flex: 0 1 48%;
+}
+.contacts__img {
+}

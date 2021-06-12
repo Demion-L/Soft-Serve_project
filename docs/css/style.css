@@ -51,7 +51,6 @@
 
 @media (max-width: 768px) {
   .header {
-    position: fixed;
     z-index: 999;
     top: 0;
     left: 0;
@@ -170,7 +169,7 @@
 .bage {
   background: #ffffff;
   padding: 2.5rem;
-  flex: 0 1 48%;
+  flex: 0 0 48%;
   box-shadow: 0 20px 60px 0 rgba(49, 69, 244, 0.1);
 }
 
@@ -282,7 +281,8 @@
 }
 
 .for__element {
-  flex: 0 0 31%;
+  flex: 0 1 31%;
+  min-width: 20rem;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
   box-shadow: 0 20px 60px 0 rgba(49, 69, 244, 0.1);
@@ -310,7 +310,6 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 7.5rem;
 }
 
 .do-with__container {
@@ -323,32 +322,36 @@
 
 .do-with__info {
   width: 100%;
-  width: 420px;
-  height: 40px;
-  margin: 20px 0 20px 20px;
-  font-family: Muli;
-  font-size: 18px;
+  max-width: 26.25rem;
+  padding: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.22;
-  letter-spacing: normal;
   color: #000000;
 }
 
 .callback {
-  background: #1968fc url("../img/illustration-main.png") 100% 0 no-repeat;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5rem 10rem;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.15), 0 0 1px 2px rgba(0, 0, 0, 0.15);
+  background: #1968fc url("../img/illustration-whiteglove.png") 105% -30% no-repeat;
   padding-bottom: 7rem;
 }
 
 .callback__header.section-header {
   color: #ffffff;
+  margin-bottom: 3rem;
+}
+.callback__header.section-header::after {
+  background-color: #ffffff;
 }
 
 .callback__info {
   width: 100%;
   max-width: 40rem;
-  margin: 48px 480px 40px 40px;
+  margin-bottom: 2.5rem;
   font-size: 1.2rem;
   line-height: 2;
   color: #ffffff;
@@ -357,6 +360,81 @@
 .callback__button.button {
   background: #ffffff;
   color: #1968fc;
+}
+
+.contact-us {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.15), 0 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 10rem;
+}
+
+.contacts__form {
+  display: flex;
+  flex: 0 1 48%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contacts__input {
+  width: 435px;
+  border-bottom: 2px solid #1968fc;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  line-height: 1.63;
+  letter-spacing: 0.53px;
+  color: #000000;
+}
+
+.contacts__button.button {
+  width: 100%;
+  max-width: 20rem;
+}
+
+.contacts__map {
+  flex: 0 1 48%;
+}
+
+.footer {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__contacts-container,
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contacts-element {
+  margin-right: 2.5rem;
+  font-size: 0.9rem;
+  color: #000000;
+  border-bottom: 1px solid transparent;
+}
+.footer__contacts-element:last-child {
+  margin-right: 0;
+}
+.footer__contacts-element:hover {
+  border-bottom: 1px solid #11223f;
+}
+
+.footer__social-element {
+  width: 100%;
+  margin-right: 1.5rem;
+}
+.footer__social-element:last-child {
+  margin-right: 0;
 }
 
 html,
@@ -372,8 +450,9 @@ body {
 }
 
 .wrapper {
+  width: 100%;
   max-width: 1440px;
-  box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, 0.438);
+  box-shadow: -2px -1px 2px rgba(0, 0, 0, 0.15), 2px -1px 2px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
   padding: 0 10rem;
   background: url(../../img/background-decor.svg);
@@ -388,6 +467,7 @@ body {
   line-height: 1.43;
   color: #ffffff;
   background: #1968fc;
+  cursor: pointer;
 }
 .button:hover {
   border: 1px solid #11223f;

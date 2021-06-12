@@ -1,0 +1,37 @@
+.footer {
+  background: $white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo {
+}
+.footer__contacts {
+}
+.footer__contacts-container,
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contacts-element {
+  margin-right: 2.5rem;
+  font-size: 0.9rem;
+  color: $black;
+  border-bottom: 1px solid transparent;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    border-bottom: 1px solid $text;
+  }
+}
+
+.footer__social-element {
+  width: 100%;
+  margin-right: 1.5rem;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.footer__vincent {
+}
